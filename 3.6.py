@@ -9,7 +9,7 @@ while entrada != True:
     if entrada % 3 == 0:
         m3 += 1
 
-    elif entrada % 5 == 0:
+    if entrada % 5 == 0:
         m5 += 1
 
 print(f"{m3}")
